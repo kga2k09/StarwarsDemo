@@ -1,0 +1,22 @@
+.search-control {
+    min-width: 283px;
+    padding: 8px;
+    border: solid 2px grey;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .search-control::placeholder {
+    color:rgb(77, 74, 74);
+    opacity: 0.5;
+  }
+  
+  .search-control:focus {
+    -webkit-focus-ring-color: none;
+    outline: none;
+  }
+  
+ 
